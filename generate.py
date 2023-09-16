@@ -3,12 +3,16 @@ import random
 
 # Function to generate fictitious service provider data
 def generate_service_provider():
-    services = ["Delivery", "Cleaning", "Plumbing", "Electrical", "Landscaping", "Catering", "Car Repair", "Graphic Design", "Tutoring"]
+    categories = ["Cleaning", "Delivery", "Shopping"]
 
     provider = {
-        "name": f"Fictitious {random.choice(services)} Service",
+        "name": f"Fictitious {random.choice(categories)} Service",
         "location": random.choice(["New York", "Los Angeles", "Chicago", "Miami"]),
-        "services_offered": random.sample(services, random.randint(1, len(services))),
+        "services_offered": {
+            "Cleaning": ["House Cleaning", "Carpet Cleaning", "Window Cleaning"],
+            "Delivery": ["Food Delivery", "Package Delivery", "Grocery Delivery"],
+            "Shopping": ["Personal Shopping", "Grocery Shopping", "Clothing Shopping"]
+        }.get(random.choice(categories)),
         "ratings": round(random.uniform(1, 5), 2),
         "reviews": random.randint(0, 100)
     }
@@ -16,7 +20,7 @@ def generate_service_provider():
     return provider
 
 # Number of fictitious service providers to generate
-num_providers = 10
+num_providers = 100
 
 # Generate and store data in a list
 data = [generate_service_provider() for _ in range(num_providers)]
