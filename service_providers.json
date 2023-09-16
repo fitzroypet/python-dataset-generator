@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Fictitious Cleaning Service",
+        "location": "Miami",
+        "services_offered": [
+            "Food Delivery",
+            "Package Delivery",
+            "Grocery Delivery"
+        ],
+        "ratings": 4.91,
+        "reviews": 74
+    },
+    {
+        "name": "Fictitious Cleaning Service",
+        "location": "New York",
+        "services_offered": [
+            "Personal Shopping",
+            "Grocery Shopping",
+            "Clothing Shopping"
+        ],
+        "ratings": 1.5,
+        "reviews": 44
+    },
+    {
+        "name": "Fictitious Shopping Service",
+        "location": "New York",
+        "services_offered": [
+            "Food Delivery",
+            "Package Delivery",
+            "Grocery Delivery"
+        ],
+        "ratings": 1.2,
+        "reviews": 88
+    },
+    {
+        "name": "Fictitious Shopping Service",
+        "location": "Los Angeles",
+        "services_offered": [
+            "House Cleaning",
+            "Carpet Cleaning",
+            "Window Cleaning"
+        ],
+        "ratings": 4.44,
+        "reviews": 4
+    },
+    {
+        "name": "Fictitious Delivery Service",
+        "location": "Chicago",
+        "services_offered": [
+            "House Cleaning",
+            "Carpet Cleaning",
+            "Window Cleaning"
+        ],
+        "ratings": 3.16,
+        "reviews": 53
+    },
+    {
+        "name": "Fictitious Shopping Service",
+        "location": "Los Angeles",
+        "services_offered": [
+            "Food Delivery",
+            "Package Delivery",
+            "Grocery Delivery"
+        ],
+        "ratings": 3.66,
+        "reviews": 64
+    },
+    {
+        "name": "Fictitious Cleaning Service",
+        "location": "Miami",
+        "services_offered": [
+            "Personal Shopping",
+            "Grocery Shopping",
+            "Clothing Shopping"
+        ],
+        "ratings": 3.66,
+        "reviews": 69
+    },
+    {
+        "name": "Fictitious Shopping Service",
+        "location": "Miami",
+        "services_offered": [
+            "House Cleaning",
+            "Carpet Cleaning",
+            "Window Cleaning"
+        ],
+        "ratings": 2.86,
+        "reviews": 57
+    },
+    {
+        "name": "Fictitious Delivery Service",
+        "location": "Miami",
+        "services_offered": [
+            "Food Delivery",
+            "Package Delivery",
+            "Grocery Delivery"
+        ],
+        "ratings": 2.26,
+        "reviews": 17
+    },
+    {
+        "name": "Fictitious Cleaning Service",
+        "location": "Chicago",
+        "services_offered": [
+            "Food Delivery",
+            "Package Delivery",
+            "Grocery Delivery"
+        ],
+        "ratings": 3.94,
+        "reviews": 57
+    }
+]
